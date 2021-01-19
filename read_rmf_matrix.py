@@ -3,8 +3,8 @@ from astropy.io import fits
 
 def read_rmf_matrix(rmf_file):
     '''
-    Read a rmf fits built according to (OGIP Calibration Memo CAL/GEN/92-002, George, I.M. 1992)
-    OGIP standard and returns a numpy array of the redistribution matrix.
+    Read a rmf fits built according to OGIP standard  (cf. CAL/GEN/92-002, George, I.M. 1992)
+    and returns a numpy array of the redistribution matrix.
     
     par rmf_file: str
     return m: numpy array
